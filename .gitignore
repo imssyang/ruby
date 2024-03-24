@@ -3,4 +3,5 @@ archive
 bin
 include
 lib
+rbenv
 share
