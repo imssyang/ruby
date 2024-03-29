@@ -1,7 +1,6 @@
 # Directory in archive file
-archive
-bin
-include
-lib
-rbenv
-share
+archive/
+cocoapods/*
+!cocoapods/README.md
+rbenv/*
+!rbenv/README.md
