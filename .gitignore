@@ -1,6 +1,3 @@
 # Directory in archive file
-archive/
 cocoapods/*
 !cocoapods/README.md
-rbenv/*
-!rbenv/README.md
