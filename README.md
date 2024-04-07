@@ -22,3 +22,10 @@ rbenv install 3.3.0            # Install ruby v3.3.0 to ~/.rbenv/versions/3.3.0/
 ln -s /opt/ruby/rbenv ~/.rbenv
 ```
 
+# rbenv
+
+```bash
+# Ignore untracked content of rbenv
+git config -f .gitmodules submodule.rbenv.ignore untracked
+git config -f .gitmodules submodule.ruby-build.ignore untracked
+```
